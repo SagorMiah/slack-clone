@@ -3,21 +3,20 @@
   border-top: 1px solid #49274b;
   max-width: 260px;
   color: white;
+  flex: 0.3;
 }
 
 .sidebar__header {
   display: flex;
   border-bottom: 1px solid #49274b;
-  padding-bottom: 10px;
+  padding-bottom: 10px !important;
   padding: 13px;
+  align-items: center;
 }
 
 .sidebar__create {
-  padding: 8px;
   color: #49274b;
   font-size: 18px !important;
-  background-color: white;
-  border-radius: 999px;
 }
 
 .sidebar__info {
@@ -42,4 +41,46 @@
   margin-top: 1px;
   margin-right: 2px;
   color: green;
+}
+
+.sidebarOption {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  cursor: pointer;
+  padding-left: 2px;
+}
+
+.sidebarOption:hover {
+  background-color: #340e36;
+  opacity: 0.9;
+}
+
+.sidebarOption__icon {
+  font-size: 15px !important;
+  margin: 10px;
+}
+
+.sidebarOption__channel {
+  padding: 10px 0;
+}
+
+.sidebarOption__hash {
+  padding: 10px;
+}
+
+.sidebarOption > h3 {
+  font-weight: 500;
+}
+
+.sidebar > hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #49274b;
+}
+
+.sidebar__createWrap {
+  background-color: white;
+  border-radius: 999px;
+  padding: 8px 10px;
 }
